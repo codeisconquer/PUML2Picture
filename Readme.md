@@ -1,33 +1,29 @@
 # 🖥 PUML Desktop App
 
-Die **PUML Desktop App** ist ein schlanker, nativer PlantUML-Editor für macOS, mit dem du UML-Diagramme direkt auf deinem Rechner erstellen, anzeigen und speichern kannst – ohne externe Dienste, vollständig offline und mit lokal eingebettetem `plantuml.jar`.
+Die **PUML Desktop App** ist ein einfacher, nativer UML-Editor für macOS, der es ermöglicht, direkt in der App PlantUML-Code einzugeben und Diagramme als PNG oder SVG zu erzeugen.  
+Ideal für Entwickler, Architekten und Dokumentation – **offline & lokal**, ohne externe Services.
 
-![Screenshot](assets/icon.png)
+![Icon](assets/icon.png)
 
 ---
 
 ## ✨ Features
 
-- 📝 PUML-Code direkt in der App eingeben oder einfügen
-- 📸 Live-Vorschau des Diagramms (PNG)
-- 📂 Export als **PNG** oder **SVG**
-- 💾 Speichern in den **Downloads-Ordner**
-- 🧠 Automatisches Speichern bei Eingabe (Auto-Save)
-- 🔤 Benutzerdefinierbarer Dateiname
-- 🍏 Native macOS `.app` mit eigenem Icon
-- ☁️ Offline-fähig – kein Internet notwendig
+- ✍️ PlantUML-Code direkt eingeben, einfügen oder bearbeiten
+- 🖼 Live-Vorschau von Diagrammen (PNG)
+- 📂 Export als PNG oder SVG
+- 💾 Auto-Save in den Downloads-Ordner
+- 🔤 Eigener Dateiname oder automatische Benennung
+- 🍏 Native macOS `.app` mit Icon
+- ☁️ Läuft vollständig offline
 
 ---
 
-## 🛠 Voraussetzungen
+## 🚀 Schnellstart
 
-- [Go](https://golang.org/dl/) **≥ 1.21**
-- [Java Runtime (JRE)](https://adoptium.net/) (z. B. via `brew install openjdk`)
-- `plantuml.jar` in `assets/` (einmalig herunterladen von [plantuml.com/download](https://plantuml.com/download))
+### 🔧 Voraussetzungen
 
----
-
-## 🚀 Starten der App
+#### 1. Homebrew (wenn noch nicht vorhanden):
 
 ```bash
-go run .
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

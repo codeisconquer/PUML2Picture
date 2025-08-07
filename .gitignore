@@ -38,8 +38,7 @@ fyne.lock
 PUML.app/
 
 # plantuml render cache (falls du welche speicherst)
-*.png
-*.svg
+
 *.puml~
 
 # Eingebettete tmp-Dateien bei Debug
