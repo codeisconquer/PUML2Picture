@@ -1,0 +1,51 @@
+# Binärdateien
+*.exe
+*.app
+*.dmg
+*.out
+*.bin
+
+# Mac-spezifische Dateien
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# temporäre Dateien
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Go build artifacts
+/build/
+*.test
+*.prof
+*.coverprofile
+*.cov
+*.a
+
+# VS Code
+.vscode/
+
+# Go mod cache (optional)
+go.sum
+
+# Fyne build output
+*.manifest
+*.fyne
+fyne.lock
+PUML.app/
+
+# plantuml render cache (falls du welche speicherst)
+*.png
+*.svg
+*.puml~
+
+# Eingebettete tmp-Dateien bei Debug
+*.bak
+*.orig
+
+# Node (falls du npm verwendest für Scripts)
+node_modules/
+package-lock.json

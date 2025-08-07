@@ -1,0 +1,10 @@
+{
+  "name": "puml-desktop-app",
+  "version": "1.0.0",
+  "scripts": {
+    "run": "go run .",
+    "build": "fyne package -os darwin -icon assets/icon.png -name PUML",
+    "clean": "rm -rf PUML.app",
+    "install-deps": "go get ./..."
+  }
+}
